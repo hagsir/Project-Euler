@@ -6,7 +6,7 @@ What is the largest prime factor of the number 600851475143 ?
 int main(){
 int i, dividers = 0, n;
 
-printf("The prime numbers divided by 600851475143 are: ");
+printf("The prime factors of 600851475143 are: ");
     for(n=1; n<600851475143; n++){
         for(i = 1; i <= n; i++){
           if(n % i == 0)
