@@ -7,7 +7,7 @@ Find the sum of all the primes below two million.
 int main(){
 long long int i, dividers = 0, n, sum=1;
 
-printf("Calculating the sum of prime numbers up to 2,000,000...");
+printf("Calculating the sum of all the prime numbers below 2,000,000...");
     for(n=0; n<2000000; n++){
     n++;
         for(i = 0; i <= n/2; i++){
